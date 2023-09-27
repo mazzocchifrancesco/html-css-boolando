@@ -7,3 +7,18 @@ nav {
     top: 0;
     width: 100%;
 }
+main img {
+    width: 100%;
+    margin-top: 50px;
+}
+section div {
+}
+section {flex-wrap: wrap;}
+
+section div:hover .d-none {
+    display: inline-block;
+}
+.hide{
+    top: 0;
+    left: 0;
+}

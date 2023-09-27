@@ -3,7 +3,9 @@
 	padding: 0;
 	margin: 0;
 }
+/*** FLEX ***/
 
+.d-none {display: none;}
 /*** FLEX ***/
 .d-flex {	display: flex;	}
 .flex-row {	flex-direction: row; }
@@ -28,6 +30,7 @@
 .w-20 { width: 20%; } /* 1/5 */
 .w-25 { width: 25%; } /* 1/4 */
 .w-33 { width: 33%; } /* 1/3 */
+.w-30 { width: 30%; }
 .w-40 { width: 40%; } /* 2/5 */
 .w-50 { width: 50%; } /* 1/2 */
 .w-60 { width: 60%; } /* 3/5 */
@@ -55,6 +58,8 @@
 .pl-64 { padding-left: 64px; }
 .py-64 { padding: 64px 0; }
 .px-64 { padding: 0 64px; }
+
+.pt-100 { padding-top: 100px; }
 
 /*** BACKGROUND COLORS ***/
 .bg-lightblue { background-color: lightblue; }
@@ -113,6 +118,7 @@
 .my-20 {margin: 20px 0;}
 .my-64 {margin: 64px 0;}
 .mb-100 {margin-bottom: 100px;}
+.mt-50 {margin-top: 50px;}
 
 /*** BACKGROUND ***/
 
@@ -123,6 +129,20 @@
 
 .h-14 {height: 14px;}
 .h-18 {height: 18px;}
+
+/*** POSITION***/
+
+.ps-absolute {position:absolute}
+.ps-relative {position:relative}
+
+/*** Z-index ***/
+
+.z-1 {z-index: 1;}
+.z-2 {z-index: 2;}
+.z-3 {z-index: 3;}
+.z-4 {z-index: 4;}
+.z-50 {z-index: 50;}
+
 
 
 /*** SVG FILTER ***/
