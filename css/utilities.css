@@ -6,6 +6,7 @@
 /*** FLEX ***/
 
 .d-none {display: none;}
+.d-inblock {display: inline-block;}
 /*** FLEX ***/
 .d-flex {	display: flex;	}
 .flex-row {	flex-direction: row; }
@@ -60,6 +61,8 @@
 .px-64 { padding: 0 64px; }
 
 .pt-100 { padding-top: 100px; }
+.py-100 { padding: 100px 0; }
+
 
 /*** BACKGROUND COLORS ***/
 .bg-lightblue { background-color: lightblue; }
@@ -96,11 +99,17 @@
 .we-600 {font-weight: 600;}
 .we-700 {font-weight: 700;}
 
+/*** STILE TESTO ***/
+.fd-bar {text-decoration: line-through;}
 
 /*** COLORE TESTO ***/
 .c-white {color: white;}
 .c-black {color: black;}
 .c-discord {color:#7289da}
+.c-red {color:red}
+.c-grey {color:grey}
+grey
+
 
 
 /*** POSIZIONE TESTO ***/
