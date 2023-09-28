@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,7 +18,7 @@
             <div>
                 <a href="">Uomo</a>
                 <a class="px-6" href="">Donna</a>
-                <a href="">Bambino</a>
+                <a href="">Bambini</a>
 
             </div>
             <div class="d-flex flex-justify-center">
@@ -33,60 +36,141 @@
     <!-- inizio riquadri foto -->
     <main class="d-flex flex-justify-center">
         <section class="d-flex w-75 flex-justify-between py-100">
-        <div class="w-30 ps-relative">
-            <img class="z-1" src="img/1.webp" alt="">
-            <img class="z-2 d-none hide ps-absolute" src="img/1b.webp" alt="">
-            <p class="fsize-14 we-600 c-grey">Levi's</p>
-            <p class="we-700 fsize-17">RELAXED FIT TEE UNISEX</p>
-            <p class="c-red we-800 fsize-14 d-inblock">14.99</p>
-            <p class="fd-bar fsize-14 d-inblock">29.99</p>
-        </div>
+            <!-- foto 1 -->
+            <div class="w-30 ps-relative">
+                <img class="z-1" src="img/1.webp" alt="">
+                <img class="z-2 d-none hide ps-absolute" src="img/1b.webp" alt="">
+                <p class="fsize-14 we-600 c-grey">Levi's</p>
+                <p class="we-700 fsize-17">RELAXED FIT TEE UNISEX</p>
+                <p class="c-red we-700 fsize-14 d-inblock">14.99 &euro;</p>
+                <p class="fd-bar fsize-14 d-inblock">29.99 &euro;</p>
+                <div class="z-3 sconto-sost ps-absolute">
+                    <!-- percentuale + sostenibilità -->
+                    <p class="fsize-12 p-4 bg-red c-white d-inblock">-30%</p>
+                    <p class="fsize-12 p-4 bg-forestgreen c-white we-700 d-inblock">Sostenibilità</p>
+                </div>
+                <!-- cuore -->
+                <div class="z-3 cuore ps-absolute">
+                    <i class="fa-solid fa-heart centraicona"></i>
+                </div>
+            </div>
 
-        <div class="w-30 ps-relative">
-            <img class="z-1" src="img/2.webp" alt="">
-            <img class="z-2 d-none ps-absolute hide" src="img/2b.webp" alt="">
-            <p class="fsize-14 we-600 c-grey">Guess</p>
-            <p class="we-700 fsize-17">ROSES TEE</p>
-            <p class="c-red we-800 fsize-14 d-inblock">20.39</p>
-            <p class="fd-bar fsize-14 d-inblock">29.99</p>
-        </div>
-        
-        <div class="w-30 ps-relative">
-            <img class="z-1" src="img/3.webp" alt="">
-            <img class="z-2 d-none ps-absolute hide" src="img/3b.webp" alt="">
-            <p class="fsize-14 we-600 c-grey">Come Zucchero Filato</p>
-            <p class="we-700 fsize-17">VOGLIA DI COLORI PASTELLO</p>
-            <p class="c-red we-800 fsize-14 d-inblock">129.99</p>
-            <p class="fd-bar fsize-14 d-inblock">184.99</p>        
-        </div>
+            <!-- foto 2 -->
+            <div class="w-30 ps-relative">
+                <img class="z-1" src="img/2.webp" alt="">
+                <img class="z-2 d-none ps-absolute hide" src="img/2b.webp" alt="">
+                <p class="fsize-14 we-600 c-grey">Guess</p>
+                <p class="we-700 fsize-17">ROSES TEE</p>
+                <p class="c-red we-700 fsize-14 d-inblock">20.39 &euro;</p>
+                <p class="fd-bar fsize-14 d-inblock">29.99 &euro;</p>
+                <div class="z-3 sconto-sost ps-absolute">
+                <!-- percentuale + sostenibilità -->
+                    <p class="fsize-12 p-4 bg-red c-white d-inblock">-30%</p>
+                </div>
+                <!-- cuore -->
+                <div class="z-3 cuore ps-absolute">
+                    <i class="fa-solid fa-heart centraicona"></i>
+                </div>
+            </div>
 
-        <div class="w-30 ps-relative">
-            <img class="z-1" src="img/4.webp" alt="">
-            <img class="z-2 d-none ps-absolute hide" src="img/4b.webp" alt="">
-            <p class="fsize-14 we-600 c-grey">Levi's</p>
-            <p class="we-700 fsize-17">TEE UNISEX</p>
-            <p class="c-red we-800 fsize-14 d-inblock">14.99</p>
-            <p class="fd-bar fsize-14 d-inblock">29.99</p>        
-        </div>
+            <!-- foto 3 -->      
 
-        <div class="w-30 ps-relative">
-            <img class="z-1" src="img/5.webp" alt="">
-            <img class="z-2 d-none ps-absolute hide" src="img/5b.webp" alt="">
-            <p class="fsize-14 we-600 c-grey">Maya Deluxe</p>
-            <p class="we-700 fsize-17">STRIPE BODICE</p>
-            <p class="c-red we-800 fsize-14 d-inblock">99.99</p>
-            <p class="fd-bar fsize-14 d-inblock"></p>        
-        </div>
+            <div class="w-30 ps-relative">
+                <img class="z-1" src="img/3.webp" alt="">
+                <img class="z-2 d-none ps-absolute hide" src="img/3b.webp" alt="">
+                <p class="fsize-14 we-600 c-grey">Come Zucchero Filato</p>
+                <p class="we-700 fsize-17">VOGLIA DI COLORI PASTELLO</p>
+                <p class="c-red we-700 fsize-14 d-inblock">129.99 &euro;</p>
+                <p class="fd-bar fsize-14 d-inblock">184.99 &euro;</p>        
+                <div class="z-3 sconto-sost ps-absolute">
+                <!-- percentuale + sostenibilità -->
+                    <p class="fsize-12 p-4 bg-red c-white d-inblock">-30%</p>
+                </div>
+                <!-- cuore -->
+                <div class="z-3 cuore ps-absolute">
+                    <i class="fa-solid fa-heart centraicona"></i>
+                </div>
+            </div>
 
-        <div class="w-30 ps-relative">
-            <img  class="z-1" src="img/6.webp" alt="">
-            <img class="z-2 d-none ps-absolute hide" src="img/6b.webp" alt="">
-            <p class="fsize-14 we-600 c-grey">Esprit</p>
-            <p class="we-700 fsize-17">MAGLIONE-BLACK</p>
-            <p class="c-red we-800 fsize-14 d-inblock">29.99</p>
-            <p class="fd-bar fsize-14 d-inblock"></p>        
-        </div>
+            <!-- foto 4 -->
+            <div class="w-30 ps-relative">
+                <img class="z-1" src="img/4.webp" alt="">
+                <img class="z-2 d-none ps-absolute hide" src="img/4b.webp" alt="">
+                <p class="fsize-14 we-600 c-grey">Levi's</p>
+                <p class="we-700 fsize-17">TEE UNISEX</p>
+                <p class="c-red we-700 fsize-14 d-inblock">14.99 &euro;</p>
+                <p class="fd-bar fsize-14 d-inblock">29.99 &euro;</p>        
+                <div class="z-3 sconto-sost ps-absolute">
+                <!-- percentuale + sostenibilità -->
+                    <p class="fsize-12 p-4 bg-red c-white d-inblock">-50%</p>
+                    <p class="fsize-12 p-4 bg-forestgreen c-white we-700 d-inblock">Sostenibilità</p>
+                </div>
+                <!-- cuore -->
+                <div class="z-3 cuore ps-absolute">
+                    <i class="fa-solid fa-heart centraicona"></i>
+                </div>
+            </div>
+
+            <!-- foto 5 -->
+
+            <div class="w-30 ps-relative">
+                <img class="z-1" src="img/5.webp" alt="">
+                <img class="z-2 d-none ps-absolute hide" src="img/5b.webp" alt="">
+                <p class="fsize-14 we-600 c-grey">Maya Deluxe</p>
+                <p class="we-700 fsize-17">STRIPE BODICE</p>
+                <p class="c-red we-700 fsize-14 d-inblock">99.99 &euro;</p>
+                <p class="fd-bar fsize-14 d-inblock"></p>        
+                <div class="z-3 sconto-sost ps-absolute">
+                <!-- percentuale + sostenibilità -->
+                </div>
+                <!-- cuore -->
+                <div class="z-3 cuore ps-absolute">
+                    <i class="fa-solid fa-heart centraicona"></i>
+                </div>
+            </div>
+
+            <!-- foto 6 -->
+
+            <div class="w-30 ps-relative">
+                <img  class="z-1" src="img/6.webp" alt="">
+                <img class="z-2 d-none ps-absolute hide" src="img/6b.webp" alt="">
+                <p class="fsize-14 we-600 c-grey">Esprit</p>
+                <p class="we-700 fsize-17">MAGLIONE-BLACK</p>
+                <p class="c-red we-700 fsize-14 d-inblock">29.99 &euro;</p>
+                <p class="fd-bar fsize-14 d-inblock"></p>        
+                <div class="z-3 sconto-sost ps-absolute">
+                <!-- percentuale + sostenibilità -->
+                    <p class="fsize-12 p-4 bg-forestgreen c-white we-700 d-inblock">Sostenibilità</p>
+                </div>
+                <!-- cuore -->
+                <div class="z-3 cuore ps-absolute">
+                    <i class="fa-solid fa-heart centraicona"></i>
+                </div>
+            </div>
     </section>
     </main>
+    <footer>
+        <div class="barra-finale">
+            <div>
+                <p>Boolando s.r.l</p>
+                <div>
+                    <span class="fsize-12">Informativa sulla privacy</span>
+                    <span class="fsize-12">Informazioni legali</span>
+                    <span class="fsize-12">Diritto di recesso</span>
+
+                </div>
+            </div>
+            <div class="text-center">
+                <p class="fsize-12">Trovaci anche su</p>
+                <div>
+                    <i class="fsize-12 fa-brands fa-square-twitter"></i>
+                    <i class="fsize-12 fa-brands fa-square-facebook"></i>
+                    <i class="fsize-12 fa-brands fa-square-instagram"></i>
+                    <i class="fsize-12 fa-brands fa-square-pinterest"></i>
+                    <i class="fsize-12 fa-brands fa-square-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

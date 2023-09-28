@@ -2,6 +2,7 @@ nav a {font-size: 20px;
 color: white;
 text-decoration: none;}
 
+body {font-family: 'Oswald', sans-serif;}
 nav {
     position: fixed;
     top: 0;
@@ -11,25 +12,50 @@ main img {
     width: 100%;
     margin-top: 50px;
 }
-
 section {flex-wrap: wrap;}
-
 section div:hover .d-none {
     display: inline-block;
+}
+.cuore:hover .fa-heart {
+    color: red;
 }
 .hide{
     top: 0;
     left: 0;
 }
-.marca {
-    color: grey;
-    font-size: 14;
+
+.cuore {
+    height: 30px;
+    width: 30px;
+    top: 70px;
+    right: 0;
+    background-color: white;
 }
-.nomeprod {
-    font-size: 18;
-    font-weight: 700;
+.sconto-sost {bottom: 90px;}
+.centraicona {
+    width: 100%;
+    height: 100%;
 }
-.prezzo {
-    font-size: 14;
-    display: inline-block;
+.centraicona::before {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+    
 }
+
+.barra-finale {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px 0;
+}
+
+.barra-finale i {
+    margin: 0 5px;
+
+    }
